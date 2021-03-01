@@ -163,7 +163,6 @@ button:focus-visible {
 
 div#map {
   grid-area: map;
-  background: firebrick;
 }
 
 i.right-caret {
