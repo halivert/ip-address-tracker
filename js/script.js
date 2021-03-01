@@ -12,7 +12,9 @@ function initMap() {
 	let publicAccessToken =
 		"pk.eyJ1IjoiaGFsaXZlcnQiLCJhIjoiY2tscWE4cW1sMWIwZzJvcDQzcXZ2eGh1MSJ9.s9NegXLJh4STVD_pv_JrGQ";
 
-	let map = L.map("map");
+	let map = L.map("map", {
+		zoomControl: false,
+	});
 
 	L.tileLayer(
 		"https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}",
